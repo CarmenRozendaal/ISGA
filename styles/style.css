@@ -1,0 +1,391 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url(../fonts/SourceSansPro-Bold.ttf);
+}
+@font-face {
+    font-family: SourceSansPro-Italic;
+    src: url(../fonts/SourceSansPro-Italic.ttf);
+}
+
+/* body */
+body {
+    margin: 50px;
+    height: 667px;
+    width: 375px;
+    border: 0px solid red;
+    color: white; 
+    font-family: sans-serif;
+}
+
+/* header home */
+#header-home {
+    height: 10%;
+    background-color: black;
+}
+
+.logo-ISGA {
+    width: 38%;
+    display: flex;
+    margin: auto;
+}
+
+/* main home */
+main {
+    height: 80%;
+    background-color: black;
+    padding-top: 3rem;
+}
+
+h1 {
+    font-family: SourceSansPro-Regular;
+    font-size: 51pt;
+    text-align: center;
+}
+
+.icon-fiets {
+    width: 100%;
+    height: 250px;
+    margin-top: -12px;
+    margin-bottom: -20px;
+}
+
+/* button start */
+.button-start {
+    font-family: SourceSansPro-Regular;
+    font-size: 22pt;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 14%;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* footer home */
+#footer-home {
+    height: 10%;
+    display: flex;
+    background-color: red;
+}
+
+.logo-hva {
+    width: 65%;
+    margin: auto;
+}
+
+/* header subpaginas */
+#header-subpaginas {
+    height: 10%;
+    background-color: black;
+}
+
+.fiets-header {
+    width: 100%;
+    display: flex;
+    padding-top: 1.6em;
+}
+
+/* footer subpaginas */
+#footer-subpaginas {
+    height: 10%;
+    position: relative;
+    text-align: center;
+    background-color: red;
+}
+
+.arrow {
+    width: 80px;
+    float: left;
+    margin: 1rem;
+}
+
+.logo-ISGA-sub {
+    width: 27%;
+    float: right;
+}
+
+/* main categories */
+p {
+    font-family: SourceSansPro-Regular;
+    font-size: 12pt;
+    padding: 0em 2.5em 0em 2.5em;
+    text-align: left; 
+}
+
+h2 {
+    font-family: SourceSansPro-Regular;
+    font-size: 20pt;
+    text-align: left;
+    padding: 2em 0em 0em 1.4em;
+}
+
+.button-buy {
+    font-family: SourceSansPro-Regular;
+    font-size: 20pt;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 76%;
+    display: flex;
+    margin: 2rem auto 1.5rem 2rem;
+    padding: 0.5rem;
+}
+
+.button-routes {
+    font-family: SourceSansPro-Regular;
+    font-size: 19pt;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 76%;
+    display: flex;
+    margin: 2rem auto 1.5rem 2rem;
+    padding: 0.5rem;  
+}
+
+/* main buybikes */
+#buybikes {
+    height: 80%;
+    background-color: black;
+    padding-top: 3rem; 
+}
+
+.info-icon {
+    width: 10%;
+    height: 10%;
+    margin: 0.2rem 1rem;
+}
+
+.kopje-balk {
+    font-family: SourceSansPro-Regular;
+    font-size: 19pt;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.marktplaats-content {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.swapfiets-content {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.ovfiets-content {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    border: 1px solid red;
+}
+
+/* infopagina Marktplaats */
+.kopje-balk {
+    font-family: SourceSansPro-Regular;
+    font-size: 19pt;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.info {
+    font-family: SourceSansPro-Regular;
+    font-size: 10pt;
+    padding: 1.5em 3em 0.7em 3em;
+    text-align: left; 
+} 
+
+.fiets {
+    width: 65%;
+    height: 210px; 
+    display: flex;
+    float: left;
+    margin: 0.7rem 2.5rem 1rem 2.5rem;
+}
+
+.kopje-url {
+    font-family: SourceSansPro-Regular;
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 68%;
+    float: left;
+    margin: 0rem 2.5rem;
+    padding: 0.2rem 0.7rem;
+}
+
+/* infopagina Swapfiets */
+.kopje-balk {
+    font-family: SourceSansPro-Regular;
+    font-size: 19pt;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.info {
+    font-family: SourceSansPro-Regular;
+    font-size: 10pt;
+    padding: 1.5em 3em 0.7em 3em;
+    text-align: left; 
+} 
+
+.swapfiets {
+    width: 70%;
+    display: flex;
+    float: left;
+    margin: 0.7rem 2.5rem 1rem 2.5rem;
+}
+
+.kopje-url {
+    font-family: SourceSansPro-Regular;
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 68%;
+    float: left;
+    margin: 0rem 2.5rem;
+    padding: 0.5rem 0.7rem;
+}
+
+/* infopagina OV-Fiets */
+.kopje-balk {
+    font-family: SourceSansPro-Regular;
+    font-size: 19pt;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.info {
+    font-family: SourceSansPro-Regular;
+    font-size: 10pt;
+    padding: 1.5em 3em 0.7em 3em;
+    text-align: left;
+}
+
+.ov-fiets {
+    width: 70%;
+    display: flex;
+    float: left;
+    margin: 0.7rem 2.5rem 1rem 2.5rem;
+}
+
+.kopje-url {
+    font-family: SourceSansPro-Regular;
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 68%;
+    float: left;
+    margin: 0rem 2.5rem;
+    padding: 0.2rem 0.7rem;
+}
+
+/* Main hotspots */
+#places > p {
+    font-family: SourceSansPro-Regular;
+    font-size: 10pt;
+    padding: 0em 3rem 1.2rem 3rem;
+    text-align: left; 
+}
+
+#places > h3 {
+    font-family: SourceSansPro-Bold;
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 75%;
+    display: center;
+    margin: 0rem 2.5rem;
+    padding: 0.5rem 1rem 0.5rem 4.7rem;
+}
+
+#places > h4 {
+    font-family: SourceSansPro-Regular;
+    font-size: 10pt;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 75%;
+    display: center;
+    margin: 0rem 2.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 1.2rem;
+}
+
+a {
+    font-family: SourceSansPro-Bold;
+    font-size: 11pt;
+    color: black;
+}
+
+/* Main info Fest */
+.kopje-balk {
+    font-family: SourceSansPro-Regular;
+    font-size: 19pt;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.fest-image {
+    width: 80%;
+    display: flex;
+    float: center;
+    margin: 0.5rem auto;
+}
+
+#fest > p {
+    font-family: SourceSansPro-Regular;
+    font-size: 9pt;
+    padding: 0.5rem 2.5rem 1rem 2.5rem;
+    text-align: left;
+
+}
+.google-maps {
+    width: 80%;
+    height: 130px;
+    display: flex;
+    float: left;
+    margin: 0rem 2.5rem;
+}
