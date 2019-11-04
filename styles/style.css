@@ -31,7 +31,7 @@
 header {
     width: 100%;
     height: 80px;
-    background-color: red;
+    background-color: black;
     display: flex;
 }
 
@@ -54,6 +54,7 @@ main {
 .fiets-header {
     width: 100%;
     padding-top: 1.2em;
+    background-color: black;
 }
 
 footer {
@@ -107,7 +108,7 @@ h1 {
 #categories > p {
     font-family: 'Avenir-Book';
     font-size: 12pt;
-    padding: 0em 2.5em 0em 2.5em;
+    padding: 2em 2.5em 0em 2.5em;
     text-align: left; 
     color: white;
 }
@@ -116,7 +117,7 @@ h1 {
     font-family: 'SourceSansPro-Regular';
     font-size: 20pt;
     text-align: left;
-    padding: 2em 0em 0em 1.4em;
+    padding: 1em 0em 0em 1.5em;
     color: white;
 }
 
@@ -128,20 +129,20 @@ h1 {
     background-color: red;
     width: 76%;
     display: flex;
-    margin: 2rem auto 1.5rem 2rem;
-    padding: 0.5rem;
+    margin: 1em 0em 0em 1.5em;
+    padding: 0.3em;
 }
 
 #categories > .button-routes {
     font-family: 'SourceSansPro-Regular';
-    font-size: 19pt;
+    font-size: 20pt;
     text-decoration: none;
     color: white;
     background-color: red;
     width: 76%;
     display: flex;
-    margin: 2rem auto 1.5rem 2rem;
-    padding: 0.5rem;  
+    margin: 1em 0em 1em 1.5em;
+    padding: 0.3em 0.1em;  
 }
 
 /* buybikes */
@@ -200,10 +201,9 @@ p {
     text-decoration: none;
     color: white;
     background-color: red;
-    width: 80%;
-    display: flex;
-    margin: 0.7em auto 0 auto;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 75%;
+    margin: 1em 0em 0em 1.5em;
+    padding: 0.3em;
 }
 
 #marktplaats > .info {
@@ -215,11 +215,10 @@ p {
 } 
 
 #marktplaats > .fiets {
-    width: 65%;
-    height: 210px; 
+    width: 50%;
     display: flex;
     float: left;
-    margin: 0.7rem 2.5rem 1rem 2.5rem;
+    margin: 0.7em 2.5em 0em 2.5em;
 }
 
 #marktplaats > .kopje-url {
@@ -248,7 +247,7 @@ p {
 }
 
 #swapfiets > .info {
-    font-family: 'SourceSansPro-Regular';
+    font-family: 'Avenir-Book';
     font-size: 10pt;
     padding: 1.5em 3em 0.7em 3em;
     text-align: left; 
@@ -288,7 +287,7 @@ p {
 }
 
 #ovfiets > .info {
-    font-family: 'SourceSansPro-Regular';
+    font-family: 'Avenir-Book';
     font-size: 10pt;
     padding: 1.5em 3em 0.7em 3em;
     text-align: left;
@@ -317,7 +316,7 @@ p {
 
 /* Main places */
 #places > p {
-    font-family: 'SourceSansPro-Regular';
+    font-family: 'Avenir-Book';
     font-size: 10pt;
     padding: 2em 3rem 1.2rem 3rem;
     text-align: left; 
@@ -375,7 +374,7 @@ a {
 }
 
 #fest > p {
-    font-family: 'SourceSansPro-Regular';
+    font-family: 'Avenir-Book';
     font-size: 9pt;
     padding: 0.5rem 2.5rem 1rem 2.5rem;
     text-align: left;
