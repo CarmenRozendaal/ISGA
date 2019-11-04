@@ -21,6 +21,11 @@
     src: url(../fonts/SourceSansPro-Italic.ttf);
 }
 
+body {
+    min-height: 400px;
+    margin-top: 3%;
+}
+
 /* body */
 /*body {
     margin: 50px;
@@ -33,7 +38,9 @@
 
 /* header home */
 #header-home {
-    height: 10%;
+    width: 100%;
+    min-height: 100px;
+    top: 0;
     background-color: black;
 }
 
@@ -90,7 +97,9 @@ h1 {
 
 /* header subpaginas */
 #header-subpaginas {
-    height: 10%;
+    width: 100%;
+    min-height: 100px;
+    top: 0;
     background-color: black;
 }
 
