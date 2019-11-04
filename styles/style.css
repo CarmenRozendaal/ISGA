@@ -1,9 +1,3 @@
-*, html {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 @viewport {
     zoom: 1.0;
     width: extend-to-zoom;
@@ -28,7 +22,7 @@
 }
 
 /* body */
-body {
+/*body {
     margin: 50px;
     height: 667px;
     width: 375px;
