@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
 @font-face {
     font-family: SourceSansPro-Regular;
     src: url(../fonts/SourceSansPro-Regular.ttf);
