@@ -23,34 +23,58 @@
     src: url(../fonts/SourceSansPro-Bold.ttf);
 }
 
-/* body */
-body {
-    height: 600px;
-    margin-top: 3%;
-}
-
-/* main */
-main {
-    height: 100%;
-    background-color: black;
-}
-
-/* home */
+/* algemeen */
 header {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: blue;
+    display: flex;
 }
 
 .logo-ISGA {
-    width: 40%;
+    height: 100%;
+    margin: 0.5em auto;
+    position: static;
+} 
+
+main {
+    background-color: black;
+    min-height: 600px;
+    max-height: 100%;
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 0 auto;
 }
 
+.fiets-header {
+    width: 100%;
+    padding-top: 1.2em;
+}
+
+
+footer {
+    height: 80px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: red;
+}
+
+.arrow {
+    width:40px;
+}
+
+.logo-ISGA-sub {
+    width:80px;
+}
+
+/* home */
 h1 {
     font-family: 'SourceSansPro-Regular';
-    font-size: 51pt;
+    font-size: 40pt;
     text-align: center;
     color: white;
     padding-top: 1em;
@@ -58,28 +82,19 @@ h1 {
 
 .icon-fiets {
     width: 100%;
-    height: 100%;
-    margin: -2em auto;
+    margin: 0 auto;
 }
 
-/* button start */
 .button-start {
     font-family: 'SourceSansPro-Regular';
     font-size: 22pt;
     color: white;
-    text-align: center;
+    align-items: center;
     text-decoration: none;
-    width: 20%;
+    width: 18%;
     border: 1px solid red;
     display: flex;
     margin: 0 auto;
-}
-
-/* footer home */
-footer {
-    height: 80px;
-    display: flex;
-    background-color: red;
 }
 
 .logo-hva {
@@ -87,49 +102,16 @@ footer {
     margin: auto;
 }
 
-/* header subpaginas */
-header {
-    width: 100%;
-    height: 100px;
-    background-color: blue;
-}
-
-.fiets-header {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    padding-top: 1.6em;
-}
-
-/* footer subpaginas */
-#footer {
-    height: 100px;
-    position: relative;
-    text-align: center;
-    background-color: red;
-}
-
-.arrow {
-    width: 80px;
-    float: left;
-    margin: 1rem;
-}
-
-.logo-ISGA-sub {
-    width: 27%;
-    float: right;
-}
-
-/* main categories */
-p {
+/* categories */
+#categories > p {
     font-family: 'SourceSansPro-Regular';
     font-size: 12pt;
-    padding: 0em 2.5em 0em 2.5em;
+    padding: 2em 2.5em 0em 2.5em;
     text-align: left; 
     color: white;
 }
 
-h2 {
+#categories > h2 {
     font-family: 'SourceSansPro-Regular';
     font-size: 20pt;
     text-align: left;
@@ -137,7 +119,7 @@ h2 {
     color: white;
 }
 
-.button-buy {
+#categories > .button-buy {
     font-family: 'SourceSansPro-Regular';
     font-size: 20pt;
     text-decoration: none;
@@ -149,7 +131,7 @@ h2 {
     padding: 0.5rem;
 }
 
-.button-routes {
+#categories > .button-routes {
     font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
@@ -161,14 +143,22 @@ h2 {
     padding: 0.5rem;  
 }
 
-/* main buybikes */
+/* buybikes */
+p {
+    font-family: 'SourceSansPro-Regular';
+    font-size: 12pt;
+    padding: 2em 2.5em 0em 2.5em;
+    text-align: left; 
+    color: white;
+}
+
 .info-icon {
     width: 10%;
     height: 10%;
-    margin: 0.2rem 1rem;
+    margin: 0.2em auto;
 }
 
-.kopje-balk {
+.kopje-balk-places {
     font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
@@ -176,33 +166,35 @@ h2 {
     background-color: red;
     width: 80%;
     display: flex;
-    margin: auto;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.7em auto 0 auto;
+    padding: 0.3em 1em 0.5em 1em;
 }
 
-.marktplaats-content {
+#buybikes > .marktplaats-content {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+#buybikes > .swapfiets-content {
     width: 80%;
     display: flex;
     margin: auto;
     border: 1px solid red;
 }
 
-.swapfiets-content {
+#buybikes > .ovfiets-content {
     width: 80%;
     display: flex;
     margin: auto;
+    margin-bottom: 20px;
     border: 1px solid red;
 }
 
-.ovfiets-content {
-    width: 80%;
-    display: flex;
-    margin: auto;
-    border: 1px solid red;
-}
 
 /* infopagina Marktplaats */
-.kopje-balk {
+#marktplaats > .kopje-balk {
     font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
@@ -210,11 +202,11 @@ h2 {
     background-color: red;
     width: 80%;
     display: flex;
-    margin: auto;
+    margin: 0.7em auto 0 auto;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.info {
+#marktplaats > .info {
     font-family: 'SourceSansPro-Regular';
     font-size: 10pt;
     padding: 1.5em 3em 0.7em 3em;
@@ -222,7 +214,7 @@ h2 {
     color: white; 
 } 
 
-.fiets {
+#marktplaats > .fiets {
     width: 65%;
     height: 210px; 
     display: flex;
@@ -230,7 +222,7 @@ h2 {
     margin: 0.7rem 2.5rem 1rem 2.5rem;
 }
 
-.kopje-url {
+#marktplaats > .kopje-url {
     font-family: 'SourceSansPro-Regular';
     font-size: 12pt;
     text-decoration: none;
@@ -243,7 +235,7 @@ h2 {
 }
 
 /* infopagina Swapfiets */
-.kopje-balk {
+#swapfiets > .kopje-balk {
     font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
@@ -251,11 +243,11 @@ h2 {
     background-color: red;
     width: 80%;
     display: flex;
-    margin: auto;
+    margin: 0.7em auto 0 auto;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.info {
+#swapfiets > .info {
     font-family: 'SourceSansPro-Regular';
     font-size: 10pt;
     padding: 1.5em 3em 0.7em 3em;
@@ -263,14 +255,14 @@ h2 {
     color: white;
 } 
 
-.swapfiets {
+#swapfiets > .swapfiets {
     width: 70%;
     display: flex;
     float: left;
     margin: 0.7rem 2.5rem 1rem 2.5rem;
 }
 
-.kopje-url {
+#swapfiets > .kopje-url {
     font-family: 'SourceSansPro-Regular';
     font-size: 12pt;
     text-decoration: none;
@@ -283,7 +275,7 @@ h2 {
 }
 
 /* infopagina OV-Fiets */
-.kopje-balk {
+#ovfiets > .kopje-balk {
     font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
@@ -291,11 +283,11 @@ h2 {
     background-color: red;
     width: 80%;
     display: flex;
-    margin: auto;
+    margin: 0.7em auto 0 auto;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.info {
+#ovfiets > .info {
     font-family: 'SourceSansPro-Regular';
     font-size: 10pt;
     padding: 1.5em 3em 0.7em 3em;
@@ -303,7 +295,7 @@ h2 {
     color:white;
 }
 
-.ov-fiets {
+#ovfiets > .ov-fiets {
     width: 65%;
     height: 170px;
     display: flex;
@@ -311,7 +303,7 @@ h2 {
     margin: 0.7rem 2.5rem 1rem 2.5rem;
 }
 
-.kopje-url {
+#ovfiets > .kopje-url {
     font-family: 'SourceSansPro-Regular';
     font-size: 12pt;
     text-decoration: none;
@@ -323,11 +315,11 @@ h2 {
     padding: 0.2rem 0.7rem;
 }
 
-/* Main hotspots */
+/* Main places */
 #places > p {
     font-family: 'SourceSansPro-Regular';
     font-size: 10pt;
-    padding: 0em 3rem 1.2rem 3rem;
+    padding: 2em 3rem 1.2rem 3rem;
     text-align: left; 
     color: white;
 }
@@ -363,7 +355,7 @@ a {
 }
 
 /* Main info Fest */
-.kopje-balk {
+#fest > .kopje-balk {
     font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
@@ -371,11 +363,11 @@ a {
     background-color: red;
     width: 80%;
     display: flex;
-    margin: auto;
+    margin: 0.7em auto 0 auto;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.fest-image {
+#fest > .fest-image {
     width: 80%;
     display: flex;
     float: center;
@@ -389,7 +381,7 @@ a {
     text-align: left;
     color: white;
 }
-.google-maps {
+#fest > .google-maps {
     width: 60%;
     height: 120px;
     display: flex;
