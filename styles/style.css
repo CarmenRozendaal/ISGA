@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @viewport {
     zoom: 1.0;
     width: extend-to-zoom;
@@ -9,83 +15,68 @@
 }
 
 @font-face {
-    font-family: SourceSansPro-Regular;
+    font-family:'Source Sans Pro', sans-serif;
     src: url(../fonts/SourceSansPro-Regular.ttf);
 }
 @font-face {
-    font-family: SourceSansPro-Bold;
+    font-family: 'Source Sans Pro-Bold', sans-serif;
     src: url(../fonts/SourceSansPro-Bold.ttf);
-}
-@font-face {
-    font-family: SourceSansPro-Italic;
-    src: url(../fonts/SourceSansPro-Italic.ttf);
-}
-
-body {
-    min-height: 400px;
-    margin-top: 3%;
 }
 
 /* body */
-/*body {
-    margin: 50px;
-    height: 667px;
-    width: 375px;
-    border: 0px solid red;
-    color: white; 
-    font-family: sans-serif;
+body {
+    height: 600px;
+    margin-top: 3%;
 }
 
-/* header home */
-#header-home {
-    width: 100%;
-    min-height: 100px;
-    top: 0;
+main {
+    height: 100%;
     background-color: black;
+}
+
+/* home */
+header {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
 }
 
 .logo-ISGA {
-    width: 38%;
+    width: 40%;
     display: flex;
-    margin: auto;
-}
-
-/* main home */
-main {
-    height: 80%;
-    background-color: black;
-    padding-top: 3rem;
+    margin: 0 auto;
 }
 
 h1 {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 51pt;
     text-align: center;
+    color: white;
+    padding-top: 1em;
 }
 
 .icon-fiets {
     width: 100%;
-    height: 250px;
-    margin-top: -12px;
-    margin-bottom: -20px;
+    height: 100%;
+    margin: -2em auto;
 }
 
 /* button start */
 .button-start {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 22pt;
     color: white;
     text-align: center;
     text-decoration: none;
-    width: 17%;
+    width: 20%;
     border: 1px solid red;
     display: flex;
     margin: 0 auto;
 }
 
 /* footer home */
-#footer-home {
-    height: 10%;
+footer {
+    height: 80px;
     display: flex;
     background-color: red;
 }
@@ -96,22 +87,22 @@ h1 {
 }
 
 /* header subpaginas */
-#header-subpaginas {
+header {
     width: 100%;
-    min-height: 100px;
-    top: 0;
-    background-color: black;
+    height: 100px;
+    background-color: blue;
 }
 
 .fiets-header {
     width: 100%;
+    height: 70%;
     display: flex;
     padding-top: 1.6em;
 }
 
 /* footer subpaginas */
-#footer-subpaginas {
-    height: 10%;
+#footer {
+    height: 100px;
     position: relative;
     text-align: center;
     background-color: red;
@@ -130,21 +121,23 @@ h1 {
 
 /* main categories */
 p {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 12pt;
     padding: 0em 2.5em 0em 2.5em;
     text-align: left; 
+    color: white;
 }
 
 h2 {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 20pt;
     text-align: left;
     padding: 2em 0em 0em 1.4em;
+    color: white;
 }
 
 .button-buy {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 20pt;
     text-decoration: none;
     color: white;
@@ -156,7 +149,7 @@ h2 {
 }
 
 .button-routes {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
     color: white;
@@ -168,12 +161,6 @@ h2 {
 }
 
 /* main buybikes */
-#buybikes {
-    height: 80%;
-    background-color: black;
-    padding-top: 3rem; 
-}
-
 .info-icon {
     width: 10%;
     height: 10%;
@@ -181,7 +168,7 @@ h2 {
 }
 
 .kopje-balk {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
     color: white;
@@ -215,7 +202,7 @@ h2 {
 
 /* infopagina Marktplaats */
 .kopje-balk {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
     color: white;
@@ -227,10 +214,11 @@ h2 {
 }
 
 .info {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 10pt;
     padding: 1.5em 3em 0.7em 3em;
-    text-align: left; 
+    text-align: left;
+    color: white; 
 } 
 
 .fiets {
@@ -242,7 +230,7 @@ h2 {
 }
 
 .kopje-url {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 12pt;
     text-decoration: none;
     color: black;
@@ -255,7 +243,7 @@ h2 {
 
 /* infopagina Swapfiets */
 .kopje-balk {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
     color: white;
@@ -267,10 +255,11 @@ h2 {
 }
 
 .info {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 10pt;
     padding: 1.5em 3em 0.7em 3em;
     text-align: left; 
+    color: white;
 } 
 
 .swapfiets {
@@ -281,7 +270,7 @@ h2 {
 }
 
 .kopje-url {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 12pt;
     text-decoration: none;
     color: black;
@@ -294,7 +283,7 @@ h2 {
 
 /* infopagina OV-Fiets */
 .kopje-balk {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
     color: white;
@@ -306,10 +295,11 @@ h2 {
 }
 
 .info {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 10pt;
     padding: 1.5em 3em 0.7em 3em;
     text-align: left;
+    color:white;
 }
 
 .ov-fiets {
@@ -321,7 +311,7 @@ h2 {
 }
 
 .kopje-url {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 12pt;
     text-decoration: none;
     color: black;
@@ -334,14 +324,15 @@ h2 {
 
 /* Main hotspots */
 #places > p {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 10pt;
     padding: 0em 3rem 1.2rem 3rem;
     text-align: left; 
+    color: white;
 }
 
 #places > h3 {
-    font-family: SourceSansPro-Bold;
+    font-family: 'SourceSansPro-Bold';
     font-size: 12pt;
     text-decoration: none;
     color: white;
@@ -353,7 +344,7 @@ h2 {
 }
 
 #places > h4 {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 10pt;
     text-decoration: none;
     color: black;
@@ -365,14 +356,14 @@ h2 {
 }
 
 a {
-    font-family: SourceSansPro-Bold;
+    font-family: 'SourceSansPro-Bold';
     font-size: 11pt;
     color: black;
 }
 
 /* Main info Fest */
 .kopje-balk {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 19pt;
     text-decoration: none;
     color: white;
@@ -391,11 +382,11 @@ a {
 }
 
 #fest > p {
-    font-family: SourceSansPro-Regular;
+    font-family: 'SourceSansPro-Regular';
     font-size: 9pt;
     padding: 0.5rem 2.5rem 1rem 2.5rem;
     text-align: left;
-
+    color: white;
 }
 .google-maps {
     width: 60%;
