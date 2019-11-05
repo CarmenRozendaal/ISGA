@@ -21,6 +21,12 @@
 }
 
 @font-face {
+    font-family:'SourceSansPro-Bold';
+    src: url('../fonts/SourceSansPro-Bold.ttf') format('truetype'),
+    url('../fonts/SourceSansPro-Bold.woff') format('wolff');
+}
+
+@font-face {
     font-family:'Avenir-Book';
     src: url('../fonts/Avenir-Book.ttf') format('truetype'),
     url('../fonts/Avenir-Book.woff') format('woff');
@@ -43,7 +49,7 @@ header {
 
 main {
     background-color: black;
-    min-height: 510px;
+    min-height: 500px;
     max-height: 100%;
     display: flex;
     justify-content: center;
@@ -81,6 +87,8 @@ h1 {
     font-size: 50pt;
     text-align: center;
     color: white;
+    margin-top: -0.3em;
+    margin-bottom: -0.4em;
 }
 
 .icon-fiets {
@@ -105,19 +113,27 @@ h1 {
 }
 
 /* categories */
+#categories {
+    background-image: url('../images/74_Bikes_IMG_8466-2.jpg');
+    background-size: contain;
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 #categories > p {
     font-family: 'Avenir-Book';
     font-size: 12pt;
-    padding: 2em 2.5em 0em 2.5em;
+    padding: 0em 2.5em 1.5em 2.5em;
     text-align: left; 
     color: white;
 }
 
 #categories > h2 {
-    font-family: 'SourceSansPro-Regular';
-    font-size: 20pt;
+    font-family: 'SourceSansPro-Bold';
+    font-size: 22pt;
     text-align: left;
-    padding: 1em 0em 0em 1.5em;
+    padding: 1.3em 0em 0.2em 1.3em;
     color: white;
 }
 
@@ -129,7 +145,7 @@ h1 {
     background-color: red;
     width: 76%;
     display: flex;
-    margin: 1em 0em 0em 1.5em;
+    margin: 0.5em 0em 0em 1.5em;
     padding: 0.3em;
 }
 
@@ -149,7 +165,7 @@ h1 {
 p {
     font-family: 'Avenir-Book';
     font-size: 12pt;
-    padding: 2em 2.5em 0em 2.5em;
+    padding: 1.5em 2.5em 1em 2.5em;
     text-align: left; 
     color: white;
 }
@@ -157,7 +173,7 @@ p {
 .info-icon {
     width: 10%;
     height: 10%;
-    margin: 0.2em auto;
+    margin: 0.1em auto;
 }
 
 .kopje-balk-places {
@@ -168,41 +184,48 @@ p {
     background-color: red;
     width: 80%;
     display: flex;
-    margin: 0.7em auto 0 auto;
-    padding: 0.3em 1em 0.5em 1em;
+    margin: 0 auto;
+    padding: 0.3em 1em 0.3em 1em;
 }
 
 #buybikes > .marktplaats-content {
     width: 80%;
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 1em auto;
     border: 1px solid red;
 }
 
 #buybikes > .swapfiets-content {
     width: 80%;
     display: flex;
-    margin: auto;
+    margin: 0 auto 1em auto;
     border: 1px solid red;
 }
 
 #buybikes > .ovfiets-content {
     width: 80%;
     display: flex;
-    margin: auto;
+    margin: 0 auto 1em auto;
     margin-bottom: 20px;
     border: 1px solid red;
 }
 
 /* infopagina Marktplaats */
+#marktplaats > .fiets {
+    width: 50%;
+    display: flex;
+    float: center;
+    margin: 0em 2.5em 0em 3em;
+}
+
 #marktplaats > .kopje-balk {
     font-family: 'SourceSansPro-Regular';
-    font-size: 19pt;
+    font-size: 15pt;
     text-decoration: none;
     color: white;
     background-color: red;
-    width: 75%;
-    margin: 1em 0em 0em 1.5em;
+    width: 60%;
+    margin: 1em 0em 0em 2.5em;
     padding: 0.3em;
 }
 
@@ -213,13 +236,6 @@ p {
     text-align: left;
     color: white; 
 } 
-
-#marktplaats > .fiets {
-    width: 50%;
-    display: flex;
-    float: left;
-    margin: 0.7em 2.5em 0em 2.5em;
-}
 
 #marktplaats > .kopje-url {
     font-family: 'SourceSansPro-Regular';
