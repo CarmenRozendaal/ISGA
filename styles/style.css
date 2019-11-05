@@ -213,19 +213,19 @@ p {
 /* infopagina Marktplaats */
 #marktplaats > .kopje-balk {
     font-family: 'SourceSansPro-Regular';
-    font-size: 15pt;
+    font-size: 17pt;
     text-decoration: none;
     color: white;
     background-color: red;
     width: 70%;
-    margin: 1em 0em 0.3em 2.2em;
+    margin: 1em 0em 0.3em 2em;
     padding: 0.3em 0.6em;
 }
 
 #marktplaats > .info {
     font-family: 'SourceSansPro-Regular';
     font-size: 11pt;
-    padding: 1em 4.2em 1em 3.2em;
+    padding: 1em 4.2em 1em 3.3em;
     text-align: left;
     color: white; 
 } 
@@ -371,32 +371,29 @@ a {
     text-decoration: none;
     color: white;
     background-color: red;
-    width: 70%;
+    width: 80%;
     display: flex;
     margin: 0.7em auto 0 auto;
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 0em 0.5em 2.5em;
 }
 
 #fest > .fest-image {
     width: 80%;
     display: flex;
-    float: center;
     margin: 0.5em auto;
 }
 
 #fest > p {
-    font-family: 'SourceSansPro-Regular';
+    font-family: 'Avenir-Book';
     font-size: 9pt;
-    padding: 0.5em 2.5em 1em 2.5em;
+    padding: 0.5em 2.5em 1em 3em;
     text-align: left;
     color: white;
 }
-#fest > .google-maps {
-    width: 30%;
-    height: 40px;
+.google-maps {
+    width: 45%;
     display: flex;
-    float: left;
-    margin: 0em 2.5em;
+    margin: 0em 2.5em 1em;
 }
 
 /* Main Vondelpark */
@@ -406,14 +403,27 @@ a {
     text-decoration: none;
     color: white;
     background-color: red;
-    width: 70%;
+    width: 80%;
     display: flex;
     margin: 0.7em auto 0 auto;
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 0em 0.5em 1.5em;
 }
 
 #vondelpark > .vondelpark-image {
     width: 80%;
     display: flex;
-    float: center;
+    margin: 0 auto;
+}
+
+#vondelpark > p {
+    font-family: 'Avenir-Book';
+    font-size: 9pt;
+    padding: 1em 3em 1em 3em;
+    text-align: left;
+    color: white;
+}
+.google-maps-2 {
+    width: 45%;
+    display: flex;
+    margin: 0em 2.5em 1em 2.3em;
 }
