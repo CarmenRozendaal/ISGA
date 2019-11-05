@@ -114,7 +114,7 @@ h1 {
 
 /* categories */
 #categories {
-    background-image: url('../images/74_Bikes_IMG_8466-2.jpg');
+    background-image: url('../images/74_Bikes_IMG_8466-2.jpg'); /* Bron: ISGA boekje pagina 74 */
     background-size: contain;
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
@@ -211,6 +211,25 @@ p {
 }
 
 /* infopagina Marktplaats */
+#marktplaats > .kopje-balk {
+    font-family: 'SourceSansPro-Regular';
+    font-size: 15pt;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 55%;
+    margin: 1em 0em 0.3em 2.2em;
+    padding: 0.3em 0.4em;
+}
+
+#marktplaats > .info {
+    font-family: 'SourceSansPro-Regular';
+    font-size: 11pt;
+    padding: 1em 5em 1em 3em;
+    text-align: left;
+    color: white; 
+} 
+
 #marktplaats > .fiets {
     width: 50%;
     display: flex;
@@ -218,35 +237,16 @@ p {
     margin: 0em 2.5em 0em 3em;
 }
 
-#marktplaats > .kopje-balk {
-    font-family: 'SourceSansPro-Regular';
-    font-size: 15pt;
-    text-decoration: none;
-    color: white;
-    background-color: red;
-    width: 60%;
-    margin: 1em 0em 0em 2.5em;
-    padding: 0.3em;
-}
-
-#marktplaats > .info {
-    font-family: 'SourceSansPro-Regular';
-    font-size: 10pt;
-    padding: 1.5em 3em 0.7em 3em;
-    text-align: left;
-    color: white; 
-} 
-
 #marktplaats > .kopje-url {
     font-family: 'SourceSansPro-Regular';
     font-size: 12pt;
     text-decoration: none;
     color: black;
     background-color: white;
-    width: 68%;
+    width: 55%;
     float: left;
-    margin: 0rem 2.5rem;
-    padding: 0.2rem 0.7rem;
+    margin: 0em 2.5em 2em 2.5em;
+    padding: 0.2em 0.7em;
 }
 
 /* infopagina Swapfiets */
