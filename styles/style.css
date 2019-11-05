@@ -113,7 +113,7 @@ h1 {
 }
 
 /* categories */
-#categories {
+main#categories {
     background-image: url('../images/74_Bikes_IMG_8466-2.jpg'); /* Bron: ISGA boekje pagina 74 */
     background-size: contain;
     background-blend-mode: luminosity;
@@ -217,15 +217,15 @@ p {
     text-decoration: none;
     color: white;
     background-color: red;
-    width: 55%;
+    width: 70%;
     margin: 1em 0em 0.3em 2.2em;
-    padding: 0.3em 0.4em;
+    padding: 0.3em 0.6em;
 }
 
 #marktplaats > .info {
     font-family: 'SourceSansPro-Regular';
     font-size: 11pt;
-    padding: 1em 5em 1em 3em;
+    padding: 1em 4.2em 1em 3.2em;
     text-align: left;
     color: white; 
 } 
@@ -245,7 +245,7 @@ p {
     background-color: white;
     width: 55%;
     float: left;
-    margin: 0em 2.5em 2em 2.5em;
+    margin: 0em 2.5em 2em 3em;
     padding: 0.2em 0.7em;
 }
 
