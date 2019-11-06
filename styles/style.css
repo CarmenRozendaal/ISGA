@@ -328,6 +328,14 @@ p {
 }
 
 /* Main places */
+#places {
+    background-image: url('../images/Fest_IMG_9756.jpg'); /* Bron: Beeld ISGA boekje */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
 #places > p {
     font-family:'Avenir-Book';
     font-size: 10pt;
@@ -352,6 +360,7 @@ p {
     font-size: 10pt;
     text-decoration: none;
     color: black;
+    mix-blend-mode: screen;
     background-color: white;
     width: 75%;
     margin: 0em 3em;
